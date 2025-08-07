@@ -6,6 +6,7 @@ import { MAT_DIALOG_DATA } from '@angular/material/dialog';
   styleUrls: ['./error-dialog.component.scss']
 })
 export class ErrorDialogComponent implements OnInit {
+center: any;
 
   constructor(@Inject(MAT_DIALOG_DATA)public data: string) {}
 
